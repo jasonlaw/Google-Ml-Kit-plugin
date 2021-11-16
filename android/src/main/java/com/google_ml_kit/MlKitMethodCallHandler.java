@@ -40,12 +40,12 @@ public class MlKitMethodCallHandler implements MethodChannel.MethodCallHandler {
                 new FaceDetector(context),
                 // new ImageLabelDetector(context),
                 // new PoseDetector(context),
-                new TextDetector(context),
-                // new ObjectDetector(context),
-                // new CustomRemoteModelManager(),
-                // new EntityExtractor(),
-                // new EntityModelManager(),
-                new LanguageDetector()
+                new TextDetector(context)
+        // new ObjectDetector(context),
+        // new CustomRemoteModelManager(),
+        // new EntityExtractor(),
+        // new EntityModelManager(),
+        // new LanguageDetector(),
         // new OnDeviceTranslator(),
         // new TranslatorModelManager(),
         // new SmartReply(),
